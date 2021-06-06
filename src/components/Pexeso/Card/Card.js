@@ -9,7 +9,10 @@ const Card = ({value, id, pair, isVisible, onClick}) => {
 
     const renderCard = () => {
         if (!isVisible) return <img src={Cover} alt="cover" />
-        else return value;
+        else {
+            if (id.indexOf('image') > -1) return <img src={value} alt={id} />
+            return <p>{value}</p>
+        };
     }
 
     const classname = isVisible ? "card visible" : "card";

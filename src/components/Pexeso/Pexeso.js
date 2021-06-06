@@ -2,9 +2,15 @@ import React, { useCallback, useState } from 'react';
 import Card from './Card/Card';
 import './Pexeso.css';
 
-const Pexeso = ({data}) => {
+const Pexeso = ({data, onScoreUpdate}) => {
     const [openCards, setOpenCards] = useState([]);
     const [viewCards, setViewCards] = useState([]);
+
+    const calculateScore = useCallback(() => {
+        const all = data.length;
+        const ok = openCards.length + 2;
+        onScoreUpdate(Math.floor((ok / all) * 100));
+    }, [data, openCards, onScoreUpdate])
 
     const appendToViewing = useCallback(card => {
         const len = viewCards.length;
@@ -17,11 +23,12 @@ const Pexeso = ({data}) => {
             if (pairIndex > -1) {
                 setViewCards([]);
                 setOpenCards(openCards.concat(viewCards[0], card));
+                calculateScore();
             } else {
                 setViewCards(viewCards.concat(card));
             }
         }
-    }, [viewCards, openCards]);
+    }, [viewCards, openCards, calculateScore]);
 
     const handleClickOnCard = useCallback(targetId => {
         appendToViewing(targetId);
