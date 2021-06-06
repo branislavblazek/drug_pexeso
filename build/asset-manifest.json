@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/pexeso/static/css/main.6359e684.chunk.css",
+    "main.js": "/pexeso/static/js/main.10d2093f.chunk.js",
+    "runtime-main.js": "/pexeso/static/js/runtime-main.ce1423eb.js",
+    "static/js/2.0bfc86ae.chunk.js": "/pexeso/static/js/2.0bfc86ae.chunk.js",
+    "index.html": "/pexeso/index.html",
+    "static/js/2.0bfc86ae.chunk.js.LICENSE.txt": "/pexeso/static/js/2.0bfc86ae.chunk.js.LICENSE.txt",
+    "static/media/alkohol.8d4f6608.png": "/pexeso/static/media/alkohol.8d4f6608.png",
+    "static/media/amfetamin.374beba3.jpg": "/pexeso/static/media/amfetamin.374beba3.jpg",
+    "static/media/analgetika.576dca5d.jpg": "/pexeso/static/media/analgetika.576dca5d.jpg",
+    "static/media/background.027af186.jpg": "/pexeso/static/media/background.027af186.jpg",
+    "static/media/cover.ee2999af.png": "/pexeso/static/media/cover.ee2999af.png",
+    "static/media/extaza.7dca97a1.jpg": "/pexeso/static/media/extaza.7dca97a1.jpg",
+    "static/media/halucinogen.e9cd25dd.jpg": "/pexeso/static/media/halucinogen.e9cd25dd.jpg",
+    "static/media/heroin.d94ab445.jpg": "/pexeso/static/media/heroin.d94ab445.jpg",
+    "static/media/hypnotika.ed7974b1.jpg": "/pexeso/static/media/hypnotika.ed7974b1.jpg",
+    "static/media/kofein.fd8f5924.jpg": "/pexeso/static/media/kofein.fd8f5924.jpg",
+    "static/media/kokain.c71085ed.jpg": "/pexeso/static/media/kokain.c71085ed.jpg",
+    "static/media/krek.64e70691.jpg": "/pexeso/static/media/krek.64e70691.jpg",
+    "static/media/krokodil.9a933225.png": "/pexeso/static/media/krokodil.9a933225.png",
+    "static/media/lsd.d781161e.jpg": "/pexeso/static/media/lsd.d781161e.jpg",
+    "static/media/marihuana.18994d6b.jpg": "/pexeso/static/media/marihuana.18994d6b.jpg",
+    "static/media/nikotin.07f593ba.jpg": "/pexeso/static/media/nikotin.07f593ba.jpg",
+    "static/media/opium.9dee3b69.png": "/pexeso/static/media/opium.9dee3b69.png",
+    "static/media/pervitin.3d0ec7f1.jpg": "/pexeso/static/media/pervitin.3d0ec7f1.jpg",
+    "static/media/salvia.efe29018.jpg": "/pexeso/static/media/salvia.efe29018.jpg",
+    "static/media/sedativa.658030ca.jpg": "/pexeso/static/media/sedativa.658030ca.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce1423eb.js",
+    "static/js/2.0bfc86ae.chunk.js",
+    "static/css/main.6359e684.chunk.css",
+    "static/js/main.10d2093f.chunk.js"
+  ]
+}
