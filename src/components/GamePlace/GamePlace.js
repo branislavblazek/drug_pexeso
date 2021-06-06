@@ -6,7 +6,7 @@ import './GamePlace.css';
 const GamePlace = () => {
     const [isFinished, setIsFinished] = useState(false);
     const [score, setScore] = useState(0);
-    const [left, setLeft] = useState(90);
+    const [left, setLeft] = useState(120);
 
     useEffect(() => {
         if (left > 0) {
